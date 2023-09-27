@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="foundation-starter/css/foundation.css">
+    <link rel="stylesheet" href="foundation-starter/css/styles.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!--Menu Section-->
+        <ul class="vertical menu accordion-menu menustyle" data-accordion-menu>
+            <li>
+              <a href="#">Menu</a>
+              <ul class="menu vertical nested">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fun.html">Fun</a></li>
+              </ul>
+            </li>
+        </ul>
+        <!--Main Content-->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x fun">
+                    <div class="cell small-12">In my freetime I like to play <div class="funb">soccer</div> and <div class="funa">guitar</div></div>
+                    <div class="small-12">This is the first guitar tutorial I ever watched</div>
+                    <div class="cell show-for-medium">
+                        <iframe width="1000vh" height="500vh" src="https://www.youtube.com/embed/NDng4Duv1WA?si=fzjenEFg3P2kPYuO" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                        picture-in-picture; web-share" allowfullscreen alt="Youtube video of Riptide guitar tutorial"></iframe>
+                    </iframe></div>
+                    <div class="cell show-for-small-only">
+                        <iframe width="300vh" height="150vh" src="https://www.youtube.com/embed/NDng4Duv1WA?si=fzjenEFg3P2kPYuO" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                        picture-in-picture; web-share" allowfullscreen alt="Youtube video of Riptide guitar tutorial"></iframe>
+                    </iframe></div>
+                    <div class="small-12">I also do photography every once in awhile, here is a picture I took in Florida</div>
+                    <div class="cell small-12 show-for-small-only"><img src="pictures/_MG_1944.png" alt="Picture of an animal"></div>
+                    <div class="cell small-12 show-for-medium"><img src="pictures/_MG_19442.png" alt="Picture of an animal"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="foundation-starter/js/vendor/jquery.js"></script>
+    <script src="foundation-starter/js/vendor/what-input.js"></script>
+    <script src="foundation-starter/js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

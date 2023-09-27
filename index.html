@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="foundation-starter/css/foundation.css">
+    <link rel="stylesheet" href="foundation-starter/css/styles.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!--Menu Section-->
+        <ul class="vertical menu accordion-menu menustyle" data-accordion-menu>
+            <li>
+              <a href="#">Menu</a>
+              <ul class="menu vertical nested">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fun.html">Fun</a></li>
+              </ul>
+            </li>
+        </ul>
+        <!--Main Content-->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 show-for-small-only smallheight"><br></div>
+                    <div class="cell small-12 show-for-medium"><br></div>
+                    <div class="cell small-12 namestyle">Tyler Muchow</div>
+                    <div class="cell small-12 infostyle">Software Engineer, Data Scientist, Graphic Designer</div>
+                    <div class="cell small-12 show-for-small-only smallheight"><br></div>
+                    <div class="cell small-12 medium-12" style="background-color: black;">,</div>
+                </div>
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12"><br></div>
+                    <div class="cell small-12 aboutme">About Me</div>
+                    <div class="cell small-12 medium-8 infosec">Hello! I'm Tyler, and I am currently a
+                        computer science student at the University of St. Thomas. While my academic achievements have 
+                        been commendable, they only scratch the surface of who I am. Prior to my time at St. Thomas, I delved 
+                        into graphic design at a community college, which paved the way for an invaluable unpaid internship. 
+                        The same company recognized my potential, bringing me on part-time after my internship, and later 
+                        helped me to secure a graphic design role for the University of St. Thomas. Remarkably, most of my 
+                        graphic design skills were self-taught, like my proficiency in video editing, photography, guitar, 
+                        music production, custom e-commerce website creation, and website design. I mention all these things 
+                        because they include my hobbies and passions, in addition to coding, and they help make me a well-rounded 
+                        person. Since arriving at St. Thomas I have learned countless coding languages, mastered coding concepts, 
+                        and written numerous programs. I'm driven by a genuine passion for learning; it's a trait that defines me. 
+                        My ability to adapt and master new skills quickly presents an undeniable advantage that I am eager to 
+                        contribute to your team. I invite you to explore my resume and projects section to gain deeper insights 
+                        into my professional journey, encompassing both work experiences and coding-related projects.
+                    </div>
+                    <div class="cell small-12 medium-4"><img src="pictures/headshot.png" alt="Tyler Muchow Headshot Here"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="foundation-starter/js/vendor/jquery.js"></script>
+    <script src="foundation-starter/js/vendor/what-input.js"></script>
+    <script src="foundation-starter/js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

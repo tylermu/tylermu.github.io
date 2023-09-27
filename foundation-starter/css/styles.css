@@ -1,0 +1,102 @@
+.menustyle {
+    background-color: black;
+    
+}
+
+.menustyle a {
+    color: white;
+    font-weight: bold;
+    transition: color .5s;
+}
+
+.menustyle a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+.namestyle {
+    font-size: 7vh;
+    font-weight: bold;
+    line-height: 8vh;
+}
+
+.infostyle {
+    font-size: 3vh;
+    font-style: italic;
+}
+
+.smallheight {
+    height: 5vh;
+}
+
+.aboutme {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.infosec {
+    font-size: 3vh;
+}
+
+.header {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.sectionheader {
+    font-size: 4vh;
+    color: gray;
+    font-weight: bold;
+}
+
+.maintext {
+    font-size: 5vh;
+}
+
+.subtext {
+    font-size: 3vh;
+}
+
+.microtext {
+    font-size: 2vh;
+    font-style: italic;
+}
+
+.fun {
+    color: black;
+    font-weight: bold;
+    transition: color .5s ease;
+    font-size: 5vh;
+}
+
+.funa {
+    color: black;
+    font-weight: bold;
+    transition: color .5s ease;
+    font-size: 5vh;
+}
+
+.funa:hover {
+    color:burlywood
+}
+
+.funb {
+    color: black;
+    font-weight: bold;
+    transition: color .5s ease;
+    font-size: 5vh;
+}
+
+.funb:hover {
+    color:green
+}
+
+.unclickable {
+    color: black;
+}
+
+.unclickable:hover {
+    text-decoration: none;
+    color: white;
+    pointer-events: none;
+}
